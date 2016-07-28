@@ -1,4 +1,7 @@
 # custom-TMDB-search
+
+Walkthrough Video: https://youtu.be/X27SMC4fyIQ
+
 All movie information supplied by the great folks at TheMovieDB.org (TMDB)
 Using tmdbsimple in script:
 https://github.com/eiphes/tmdbsimple

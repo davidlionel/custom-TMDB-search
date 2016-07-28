@@ -1,5 +1,6 @@
 import tmdbsimple as tmdb
-tmdb.API_KEY = 'cd0107a9d4d806541eb7237dce3d9757'
+# Add your TMDB API Key here
+tmdb.API_KEY = '{YOURAPIKEY}'
 import csv
 import time
 import pandas as pd

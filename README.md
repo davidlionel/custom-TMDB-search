@@ -29,9 +29,9 @@ So, I paste the "movie_id" (in this case, "128"), at the end of the TMDB `/movie
 That's it! Have fun!
 
 # Caveats
-If the search breaks the script just before giving you results, simply run the "Movie-Results.py" script and you should be able to see the results of your previous results.
+If the search breaks the script just before returning your results, simply run the "Movie-Results.py" script and you should be able to see the results of your previous search.
 
 There are API request limits imposed by TMDB, so the searches take longer than you are probably used to. This is not a processing issue, but just a few built-in time-outs to respect TMDB's rules.
 
 # Future plans
-I may port this to a simple Django app, give it a pretty front-end, link the results back to the TMDB page. As far as messing with the insanely simple search algorithm, I want to weight some things differently, add a few parameters and give it a slightly more sophisticated scoring system, but really... It's giving me great results so far for the purpose I wrote the script. Would love to get some feedback from other cult movie fans.
+I may port this to a simple Django app, give it a pretty little front-end, and link the results back to the TMDB movie pages. As far as messing with the insanely simple search algorithm, I want to weight some things differently, add a few parameters and give it a slightly more sophisticated scoring system... Would love to get some feedback from other cult movie fans.

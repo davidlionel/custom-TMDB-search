@@ -16,6 +16,17 @@ Instead of average user ratings or genres, I focus on keywords, crew, and cast. 
 2. Copy the TMDB movie ID from your address bar.
 3. Run the Custom-TMDB-Search.py script
 4. Enter the TMDB movie ID and wait.
+5. To look up a movie result from the returned list, copy the {movie_id} and paste it at the end of the tmdb movie link. 
+EXAMPLE:
+Result I want to look up...
+```
+       movie_id                        title
+       128                             [u'Princess Mononoke']
+```
+So, I paste the "movie_id" (in this case, "128"), at the end of the TMDB `/movie/` link in my browser...
+`https://www.themoviedb.org/movie/128`
+
+That's it! Have fun!
 
 # Caveats
 If the search breaks the script just before giving you results, simply run the "Movie-Results.py" script and you should be able to see the results of your previous results.
@@ -23,4 +34,4 @@ If the search breaks the script just before giving you results, simply run the "
 There are API request limits imposed by TMDB, so the searches take longer than you are probably used to. This is not a processing issue, but just a few built-in time-outs to respect TMDB's rules.
 
 # Future plans
-I may port this to a simple Django app, give it a pretty front-end, link the results back to the TMDB page. As far as messing with the insanely simple search algorithm, I want to weight some things differently, add a few parameters and give it a slightly more sophisticated scoring system, but really... It's giving me great results so far for the purpose I wrote the script. Would love to get some feedback from other cult movie nerds.
+I may port this to a simple Django app, give it a pretty front-end, link the results back to the TMDB page. As far as messing with the insanely simple search algorithm, I want to weight some things differently, add a few parameters and give it a slightly more sophisticated scoring system, but really... It's giving me great results so far for the purpose I wrote the script. Would love to get some feedback from other cult movie fans.

@@ -3,8 +3,6 @@
 Walkthrough Video: https://youtu.be/X27SMC4fyIQ
 
 All movie information supplied by the great folks at TheMovieDB.org (TMDB)
-Using tmdbsimple in script:
-https://github.com/eiphes/tmdbsimple
 
 # Why it exists
 I am a bonified cult movie nerd with a pretty narrow taste. I almost never get good recommendations from Netflix, Amazon, or even Letterboxd. I assume this is because I am an outlier in my taste: I almost never enjoy the latest Hollywood movie, I almost never identify my "movie mood" by genre, so I needed a script that made finding the kind of movies I like simpler.
@@ -32,6 +30,9 @@ That's it! Have fun!
 If the search breaks the script just before returning your results, simply run the "Movie-Results.py" script and you should be able to see the results of your previous search.
 
 There are API request limits imposed by TMDB, so the searches take longer than you are probably used to. This is not a processing issue, but just a few built-in time-outs to respect TMDB's rules.
+
+Using tmdbsimple wrapper in script:
+https://github.com/celiao/tmdbsimple
 
 # Future plans
 I may port this to a simple Django app, give it a pretty little front-end, and link the results back to the TMDB movie pages. As far as messing with the insanely simple search algorithm, I want to weight some things differently, add a few parameters and give it a slightly more sophisticated scoring system... Would love to get some feedback from other cult movie fans.
